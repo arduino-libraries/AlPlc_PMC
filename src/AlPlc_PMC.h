@@ -10,12 +10,11 @@
 #define ALPLC_H
 
 #include <Arduino_MachineControl.h>
-#include <EthernetInterface.h>	//Ethernet, sockets, etc
+#include <PortentaEthernet.h>
 
 extern uint8_t m_PLCSharedVarsOutputBuf[];
 extern uint8_t m_PLCSharedVarsInputBuf[];
 
-extern EthernetInterface m_netInterface;
 
 class AlPlc
 {
